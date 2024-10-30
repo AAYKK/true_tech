@@ -4,6 +4,7 @@ import time
 from heapq import *
 import logging 
 from datetime import datetime
+from config import robot_ip, robot_id
 
 # Получаем текущую дату и время для создания уникального имени файла лога
 log_filename = f"log_walls_var_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt"
@@ -25,8 +26,6 @@ d_rotate=95
 
 STOP_TIME=1
 
-robot_ip=''
-robot_id=''
 
 class Robot:
     def __init__(self, headers:dict):
