@@ -22,7 +22,7 @@ headers={
         }
 
 d_move=150
-d_rotate=95
+d_rotate=90
 
 STOP_TIME=1
 
