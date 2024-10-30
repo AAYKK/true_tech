@@ -129,7 +129,7 @@ class Robot:
 
     def restart(self):
         self.__init__(self.headers)
-        return requests.post(f'http://127.0.0.1:8801/api/v1/maze/restart',  headers=headers)
+        
    
    
 robot=Robot(headers=headers)
