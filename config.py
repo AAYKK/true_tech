@@ -1,2 +1,2 @@
-robot_ip=''
-robot_id=''
+robot_ip='12wq'
+robot_id='12'
